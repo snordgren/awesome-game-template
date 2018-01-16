@@ -5,10 +5,12 @@ and production, CSS bundling, Babel, React, Jest, and a WebGL game structure.
 Also included is a skeleton that you can adapt to your own 
 
 ## Get Started
-To initialize this template, replace awesome-game-template with your own project
-name in package.json and webpack.common.js, then run this command.
 
-    npm install
+    git clone https://github.com/snordgren/awesome-game-template.git my-new-project
+    cd my-new-project && npm install
+
+To customize the template, replace awesome-game-template with the name of your own
+project in package.json and webpack.common.js.
 
 ## Built-in scripts
 The template includes a set of NPM scripts for managing development. To build the 
