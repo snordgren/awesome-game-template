@@ -7,7 +7,7 @@
     "build": "webpack --config webpack.development.js",
     "build-release": "webpack --config webpack.production.js",
     "build-watch": "webpack --config webpack.development.js --watch",
-    "precommit": "npm test && npm run build-release && git add index.html && git add dist/*",
+    "precommit": "npm test && npm run build-release && git add index.html && git add dist/bundle.css && git add dist/bundle.min.js",
     "test": "jest"
   },
   "license": "ISC",
